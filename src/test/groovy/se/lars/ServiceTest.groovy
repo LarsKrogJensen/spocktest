@@ -12,6 +12,6 @@ class TestSpec extends Specification {
         service.update("sailing")
 
         then:
-        1 *  dependency.update({value -> value == "snailing"})
+        1 *  dependency.update({value -> value == "sailing"})
     }
 }

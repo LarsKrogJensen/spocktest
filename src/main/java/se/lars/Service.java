@@ -7,7 +7,7 @@ public class Service {
         this.dep = dep;
     }
 
-    public void update(String value) {
-        dep.update(value);
+    public String update(String value) {
+        return dep.update(value);
     }
 }
